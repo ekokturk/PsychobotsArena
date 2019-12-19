@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 521ca566387ce54459da224c40226c3e, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  gameMode: 3
+  _controllers:
+  - Controller (XBOX 360 For Windows)
+  - Controller (XBOX 360 For Windows)
+  - 
+  - 
+  _components:
+  - prefab: {fileID: 664580705196919684, guid: 7258e354f0fd1c54da75f5c985d9caaf, type: 3}
+    name: Laser Cannon MK1
+  - prefab: {fileID: 6683146059726766246, guid: 417a0718209054144a0d21c987500066,
+      type: 3}
+    name: Psycho Burner
+  - prefab: {fileID: 9032435911326188484, guid: 9cabd96b48cfd7045ae530f0b0ae5f6e,
+      type: 3}
+    name: Chrusher
+  - prefab: {fileID: 6142380642693771005, guid: 4f9d16209a1461840b9314a27cefccc8,
+      type: 3}
+    name: MG-PHONE
+  _robots:
+  - prefab: {fileID: 6683146060900011950, guid: 1a4ceadf37e45e1419e7604d395058c9,
+      type: 3}
+    name: Meep
+    leftComponent:
+      prefab: {fileID: 9032435911326188484, guid: 17afb2c6ca5d90744962e2f0c4b1d436,
+        type: 3}
+      name: Rocket Puncher
+    rightComponent:
+      prefab: {fileID: 9032435911326188484, guid: 17afb2c6ca5d90744962e2f0c4b1d436,
+        type: 3}
+      name: Rocket Puncher
+  - prefab: {fileID: 4259983901815250888, guid: 679e62b753da7ac47a7f016956db51f0,
+      type: 3}
+    name: I.M.P.
+    leftComponent:
+      prefab: {fileID: 7788594231076040573, guid: 5d99220aed25c164dad99d3195294d0f,
+        type: 3}
+      name: Vertex Claw
+    rightComponent:
+      prefab: {fileID: 7788594231076040573, guid: 5d99220aed25c164dad99d3195294d0f,
+        type: 3}
+      name: Vertex Claw
+  _layouts:
+  - {fileID: 2580851479800656892, guid: 8be90577feda78c44a3838da2c6a67c6, type: 3}
+  - {fileID: 3802304960716958509, guid: b9bd466a3f7f8a2489b20923d009af56, type: 3}
+  - {fileID: 2979719711106691805, guid: f1412ff35052c1849911044d2e3bd29f, type: 3}
+  - {fileID: 5991939676492108945, guid: 39c070d47eb671d4285dedc151c3c221, type: 3}
+  - {fileID: 1504498925240205883, guid: 5dd412b0812433b43b368c785fa4c7bb, type: 3}
+  - {fileID: 5177937256544397528, guid: da2dbcdc50cada8489ff370dd038c471, type: 3}
+  - {fileID: 530464978045733070, guid: 3f732f3aa6835874fa7f97648ffcb7d8, type: 3}
+  _environments:
+  - {fileID: 301317873424158478, guid: be2d1508db6e8a040a64152654b94a86, type: 3}
+  - {fileID: 3536977176180045389, guid: 94ef53ff6b5f92d47992b6b6babcfd25, type: 3}
+  _players:
+  - index: 0
+    team: 0
+    robotPrefab: {fileID: 0}
+    leftComponentPrefab: {fileID: 0}
+    rightComponentPrefab: {fileID: 0}
+  - index: 0
+    team: 0
+    robotPrefab: {fileID: 0}
+    leftComponentPrefab: {fileID: 0}
+    rightComponentPrefab: {fileID: 0}
+  - index: 0
+    team: 0
+    robotPrefab: {fileID: 0}
+    leftComponentPrefab: {fileID: 0}
+    rightComponentPrefab: {fileID: 0}
+  - index: 0
+    team: 0
+    robotPrefab: {fileID: 0}
+    leftComponentPrefab: {fileID: 0}
+    rightComponentPrefab: {fileID: 0}
+  _teamColors:
+  - {r: 0.08098966, g: 0.3315539, b: 0.49056602, a: 1}
+  - {r: 0.3275187, g: 0.6037736, b: 0.36355194, a: 1}
+  - {r: 0.7372549, g: 0.42335945, b: 0.13725491, a: 1}
+  - {r: 0.745283, g: 0.46755964, b: 0.65264785, a: 1}
+  _audioMixer: {fileID: 24100000, guid: 473fee0a486bf024098e251a8ef6c981, type: 2}
