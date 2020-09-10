@@ -14,6 +14,10 @@ A 3D local multiplayer arena game developed in **Unity (C#)** that has configura
 [Download Link](https://drive.google.com/file/d/1Do4tqejGt0iHEzzI75JCxGHmhxuwH7d9/view?usp=sharing)
 
 ---
+## **Trailer**
+[![Trailer](https://i.ytimg.com/vi/OsckWKUTaXE/maxresdefault.jpg)](https://youtu.be/OsckWKUTaXE)
+
+---
 
 ## **Screenshots**
 
